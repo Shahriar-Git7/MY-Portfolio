@@ -1,63 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'poppins',sans-serif;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    background: #080808;;
-    color: #fff;
+body {
+  background: #080808;
+  color: #fff;
 }
-#header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(IMAGE/ron.jpg);
-    background-size: cover;
-    background-position: center;
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(IMAGE/me.jpg);
+  background-size: cover;
+  background-position: center;
 }
+/* Logo design(SHAHRIAR) */
 .my-logo {
-    font-family: 'Arial Black', sans-serif; 
-    font-size: 3em; 
-    color: white; 
-    margin: 20px; 
-    text-align: left; 
+  font-family: "Arial Black", sans-serif;
+  font-size: 3em;
+  color: white;
+  margin: 20px;
+  text-align: left;
 }
 .my-logo .first-letter {
-    color: #e74c3c; 
+  color: #e74c3c;
 }
 .my-logo .dot {
-    color: white; 
+  color: white;
 }
-.container{
-    padding: 10px 10%;
+.container {
+  padding: 10px 10%;
 }
-nav{
-    display:flex;
-align-items:center;
-justify-content: space-between;
-flex-wrap: wrap;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin:10px 20px;
+/* Navigation items */
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
-nav ul li a{
-    color:#fff;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
+/* Navigation Links */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
 }
-nav ul li a::after{
-content: '';
-width: 0%;
-height: 3px;
-background: #ff004f;
-position: absolute;
-left: 0;
-bottom: -6px;
-transition: 0.5s;
+/* Hover Underline Animation */
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
 }
-nav ul li a:hover::after{
-    width: 100%;
+nav ul li a:hover::after {
+  width: 100%;
+}
+.header-text {
+  margin-top: 20%;
+  font-size: 30px;
+}
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header-text h1 span {
+  color: #ff004f;
 }
